@@ -18,7 +18,7 @@ public class DemoDataController {
     @Autowired
     CreditCardData creditCardData;
 
-    @GetMapping("/credit-card")
+    @GetMapping("/cards-data")
     public ResponseEntity<?> getLoanApplication() throws JsonProcessingException {
         log.info("Credit card  api called");
 
